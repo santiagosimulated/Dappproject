@@ -1,0 +1,211 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon-48x48.png">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WalletConnect Troubleshooting Fork</title>
+
+    
+
+
+
+</head>
+    <nav class="navbar navbar-expand-xl navbar-light bg-white sticky-top"> 
+        <div class="container" style="background: #ffffff;">   
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarBasic">
+            <ul class="navbar-nav ml-auto mb-2 mb-xl-0">
+              <li class="nav-item text-white">
+                <a class="nav-link active my-2 mx-3" aria-current="page" href="#">Features</a>
+              </li>
+              <li class="nav-item text-white">
+                <a class="nav-link active my-2 mx-3" href="#">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active my-2 mx-3" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active my-2 mx-3" href="#">Build</a>
+              </li>
+            
+              <li class="nav-item">
+                <button id="connect001" onclick="connect()" class="btn my-2 active mx-3 text-white">Connect Wallet</button>
+                <div id="connected" class="bg-dark text-white p-3 rounded" style="display: none; max-width: 200px; height: 50px; white-space: nowrap; font-size: 12px; text-overflow: ellipsis; overflow: hidden;">
+                    <p class="text-truncate"></p>
+                  </div>
+                  
+
+                  </div>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+      <div class="intro i">
+          <div class="intro-content w-100 container row mx-auto">
+              <div class="intro-text col-lg-6 col-12">
+                   <h2 class="font-weight-bold">Web3 crypto gateway to<br> blockchain apps</h2>
+                   <p class="mt-4">Start exploring blockchain applications in seconds.  Trusted by over 1 million users worldwide.</p>
+                   <a id="connect002" onclick="connect()" class="btn i-btn text-white">Connect Wallet</a>
+              </div>
+
+              <div class="intro-img i-img col-lg-6 col-12">
+                 <img class="mx-2" src="img/hero.png" alt="">
+                 
+              </div>
+          </div>
+      </div>
+
+      <div class="intro h-auto">
+        <div class="intro-content w-100 container row mx-auto">
+            <div class="intro-text col-lg-6 col-12 align-self-center">
+                 <h5 class="font-weight-bold">Explore blockchain apps</h5>
+                 <p class="mt-4">WalletConnect provides the simplest yet most secure<br> way to connect to blockchain-based applications.<br> You are always in control when interacting on the<br> new decentralized web.</p>
+  
+            </div>
+            <div class="intro-img col-lg-6 col-12">
+               <img class="mx-2" src="img/girl.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="intro h-auto">
+      <div class="intro-content w-100 container row mx-auto">
+          
+          <div class="intro-img col-lg-6 col-12">
+             <img class="mx-2" src="img/laptop.svg" alt="">
+          </div>
+          
+          <div class="intro-text col-lg-6 col-12 align-self-center">
+               <h5 class="font-weight-bold">Own your data</h5>
+               <p class="mt-4">WalletConnect generates passwords and keys on your<br> device, so only you have access to your accounts<br> and data. You always choose what to share and<br> what to keep private.</p>
+
+          </div>
+      </div>
+  </div>
+
+
+
+      <div class="cryptos text-center">
+         <h4 class="font-weight-bold">All your crypto and NFTs in one place</h4>
+         <p class="mt-4">Take full control of your crypto, digital art, and more by storing<br> privately and securely on your own device</p>
+        
+         <img src="img/1.png" alt="">
+         <img src="img/2.png" alt="">
+         <img src="img/3.png" alt="">
+         <img src="img/4.png" alt="">
+         <img src="img/5.png" alt="">
+         <img src="img/6.png" alt="">
+         <img src="img/7.png" alt="">
+         <img src="img/8.png" alt="">
+         
+         <div class="cryptos-text row container mx-auto mt-5">
+             <div class="c-text col-lg-4 col-md-6 col-12 mt-3">
+                 <h5 class="font-weight-bold">Support for 500+ tokens</h5>
+                 <p>BTC, ETH, USDT, UNI, LINK, BCH,<br> USDC, LTC, and hundreds more</p>
+             </div>
+             <div class="c-text col-lg-4 col-md-6 col-12 mt-3">
+                 <h5 class="font-weight-bold">Digital collectibles</h5>
+                 <p>Punks, kitties, you name it. Buy,<br> sell, and then store your NFTs in a<br> single beautiful gallery</p>
+             </div>
+             <div class="c-text col-lg-4 col-md-6 col-12 mt-3">
+                 <h5 class="font-weight-bold">Secure storage</h5>
+                 <p>Your keys are protected with<br> Secure Enclave, biometric<br> authentication &amp; optional<br> cloud backups</p>
+             </div>
+        </div>
+      </div>
+
+      
+      <section id="reason">
+        <div class="r-content container mt-5">
+         <h5 class="fw-bold">You Deserve Easy Access to Cryptocurrencies</h5>
+         <p>Coin Pool is for you if you want to</p>
+         <div class="lists row justify-content-evenly">
+          <div class="card lists-card col-lg-5 col-12">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex">
+                <i class="fas fa-check-circle mt-1"></i>Buy Bitcoin in under five minutes</li>
+              <li class="list-group-item d-flex">
+                <i class="fas fa-check-circle mt-1"></i>Easily earn interest on your crypto</li>
+              <li class="list-group-item d-flex">
+                <i class="fas fa-check-circle mt-1"></i>See your collectibles. Art &amp; NFTs in one place</li>
+            </ul>
+          </div>
+            <div class="card lists-card col-lg-5 col-12">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex">
+                  <i class="fas fa-check-circle mt-1"></i>Keep your crypto safe from hacks &amp; scams</li>
+                <li class="list-group-item d-flex">
+                  <i class="fas fa-check-circle mt-1"></i>Exchange your crypto on the app</li>
+                <li class="list-group-item d-flex">
+                  <i class="fas fa-check-circle mt-1"></i>Track charts and prices within the app</li>
+              </ul>
+            </div>
+        </div>
+        </div>
+
+        <footer>
+          <div class="f-content container-fluid row mx-auto">
+            <div class="f-info col-lg-4 col-md-6 col-sm-6 text-center pt-5">
+              <h5>Information</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Assets</a></li>
+                <li><a href="#">DApp Browser</a></li>
+                <li><a href="#">Stablecoins</a></li>
+                <li><a href="#">Beta</a></li>
+                <li><a href="#">NFTs</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Trustwallet for IOS</a></li>
+                <li><a href="#">Trustwallet for Andriod</a></li>
+              </ul>
+            </div>
+            <div class="f-crypto col-lg-4 col-md-6 col-sm-6 text-center pt-5">
+              <h5>Use Crypto</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Buy Bitcoin with Card</a></li>
+                <li><a href="#">Buy Ethereum</a></li>
+                <li><a href="#">Buy BNB</a></li>
+                <li><a href="#">Buy XRP</a></li>
+                <li><a href="#">Buy Litecoin</a></li>
+                <li><a href="#">Buy Tron</a></li>
+                <li><a href="#">Buy BCH</a></li>
+                <li><a href="#">Buy Dogecoin</a></li>
+              </ul>
+            </div>
+            <div class="f-assets col-lg-4 col-md-6 col-sm-6 text-center pt-5">
+              <h5>Assets</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Bitcoin (BTC)</a></li>
+                <li><a href="#">Ethereum (ETH)</a></li>
+                <li><a href="#">Binance (BNB)</a></li>
+                <li><a href="#">Ripple (XRP)</a></li>
+                <li><a href="#">Litecoin (LTC)</a></li>
+                <li><a href="#">Tron (TRX)</a></li>
+                <li><a href="#">Bitcoin Cash (BCH)</a></li>
+                <li><a href="#">Dodgecoin (DODGE)</a></li>
+              </ul>
+            </div>
+        
+          </div>
+        </footer>
+   
+    <script src="bootstrap.js"></script>
+
+  
+    <script type="text/javascript" src="main.js" charset="utf-8">
+
+    
+        
+
+    </script>
+  </section></body>
+</html>
